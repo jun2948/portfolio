@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jumpei's portfolio</title>
+  <link rel="stylesheet" href="./css/portfolio.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="loader-bg">
+    <div id="load">
+      <img src="./image/loading.gif" alt="Now Loading">
+      <p>Now Loading...</p>
+    </div>
+  </div>
+  <div id="main">
+    <header>
+      <h2 id="welcome">Welcome</h2>
+      <nav>
+        <li class="aboutBar">
+          <a href="#">About</a>
+        </li>
+        <li class="skillBar">
+          <a href="#">Skills</a>
+        </li>
+        <li class="worksBar">
+          <a href="#">Works</a>
+        </li>
+        <li class="contactBar">
+          <a href="#">Contact</a>
+        </li>
+      </nav>
+    </header>
+    <div id="toppage">
+      <canvas id="myCanvas"></canvas>
+      <ul class="fly-in-text hidden">
+        <li>J</li>
+        <li>U</li>
+        <li>M</li>
+        <li>P</li>
+        <li>E</li>
+        <li>I</li>
+      </ul>
+      <ul class="fly-in-text2 hidden">
+        <li>N</li>
+        <li>I</li>
+        <li>S</li>
+        <li>H</li>
+        <li>I</li>
+        <li>K</li>
+        <li>A</li>
+        <li>W</li>
+        <li>A</li>
+      </ul>
+    </div>
+    <div class="about">
+      <h1 class="titleEffect">About</h1>
+      <div class="underLine"></div>
+      <div id="pic">
+        <img src="./image/IMG_4273.JPG" alt="selfpicture">
+      </div>
+      <div id="jap-contents">
+        <p>大阪府出身</p>
+        <p>2016年に近畿大学短期大学卒業後、カナダに留学
+          <br> そこでプログラミングに出会う。
+          <br> バンクーバーに校舎を構えるCornerstone Collegeで
+          <br> 本格的に勉強を始め, 1年後に卒業。
+          <br> 2018年夏に帰国し日本で活動を開始。
+        </p>
+      </div>
+      <div id="eng-contents">
+        <p class="shuffleEffect" index="1">From Osaka, Japan</p>
+        <p class="shuffleEffect" index="2">After graduated Kindai University in 2016,
+          <br> I have started study-abroad to Canada, and I met
+          <br> programming at there. Afterward, I have started to
+          <br> study hard programming in which is Cornerstone College
+          <br> in Vancouver BC and graduated 1 year later.
+          <br> In 2018 August, I back to Japan and begin oparation
+          <br> as a programmer.</p>
+      </div>
+    </div>
+    <div class="skills">
+      <h1 class="titleEffect">Skills</h1>
+      <div class="underLine"></div>
+      <div class="data">
+        <div id="front">
+          <h3>Front-End</h3>
+          <div id="html">HTML</div>
+          <div id="css">CSS</div>
+          <div id="javascript">JavasScript</div>
+          <div id="java">Java</div>
+          <div id="swift">Swift</div>
+        </div>
+        <div id="back">
+          <h3>Back-End</h3>
+          <div id="mysql">MySql</div>
+          <div id="framework"><h3>Framework</h3></div>
+          <div id="react">React</div>
+          <div id="react-native">React-Native</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="works">
+      <h1 class="titleEffect">Works</h1>
+      <div class="underLine"></div>
+      <ul class="slide">
+        <li id="taskmanager">
+          <img src="./image/taskmanager/mainicon.webp" alt="">
+        </li>
+        <li id="mybookshelf">
+          <img src="./image/mybookshelf/my-bookshelf.PNG" alt="">
+        </li>
+      </ul>
+      <a href="#" class="carousel-control carousel-control-prev inactive">&lt;</a>
+      <a href="#" class="carousel-control carousel-control-next inactive">&gt;</a>
+      <div id="works-link">
+        <div id="task-github">
+          <a href="https://play.google.com/store/apps/details?id=com.jyun0.taskmanager">Cornerstone Task Manager</a>
+          <br>
+          <a href="https://github.com/jun29/TaskManager3">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+        <div id="book-github">
+          <p>My BookShelf</p>
+          <a href="https://github.com/jun2948/FinalProject-MyBookShelf">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <h1 class="titleEffect">Contact</h1>
+      <div class="underLine"></div>
+      <form action="./form-post.php" method="POST">
+        <div>
+          Email Address:
+          <br>
+          <input type="text" name="from" size="20" placeholder="Email Address">
+        </div>
+        <div>
+          Title:
+          <br>
+          <input type="text" name="title" size="30" placeholder="Message Title">
+        </div>
+        <div>
+          Message:
+          <br>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+        <br>
+        <input id="submit" type="submit" value="Send">
+      </form>
+    </div>
+    <footer>
+      <a href="https://twitter.com/JJJ_0814">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100013171388759">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="https://github.com/jun2948">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+    </footer>
+    <a href="#" class="toTop">
+      <i class="fas fa-angle-double-up fa-3x"></i>
+    </a>
+  </div>
+  <script type="text/javascript" src="../portfolio/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/jquery.shuffleLetters.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
+  <script src="./js/toppage.js"></script>
+  <script src="./js/portfolio.js"></script>
+  <script src="./js/slide.js"></script>
+</body>
+</html>

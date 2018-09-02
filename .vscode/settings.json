@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "php.validate.executablePath": "C:\\Program Files\\php\\php-win.exe",
+    "php.executablePath": "C:\\Program Files\\php\\php-win.exe",
+    "php.suggest.basic": false
+}
